@@ -6,6 +6,16 @@
         <title>Contato Barbearia</title>
         <link rel="stylesheet" href="../CSS/reset.css">
         <link rel="stylesheet" href="../CSS/style.css">
+
+        <!-- Fonte para o conteudo*/ -->
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+      
+        <!--/*fonte para os titulos*/-->
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
+        
+        <!--/*Fonte para o menu*/-->
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Paytone+One&display=swap" rel="stylesheet">
+
     </head>
     
     <body>
@@ -21,7 +31,6 @@
                 </nav>
             </div>
         </header>
-
         <main>
             <form>
                 <label for="Nome">Nome: </label>
@@ -36,7 +45,7 @@
                 <label for="mensagem">Mensagem: </label>
                 <textarea cols="70" rows="10" id="mensagem" class="input-padrao"></textarea>
 
-                <fieldset>
+                <fieldset class="contato">
                     <legend>Como prefere nosso Contato?</legend>
                     <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email"> Email: </label>
 
@@ -47,9 +56,9 @@
 
                 <label class="checkbox"><input type="checkbox"> Gostaria de receber nossas novidades por email?</label>
 
-                <fieldset>
+                <fieldset class="horarios">
                     <legend>Qual horario para atendimento</legend>
-                    <select name="" id="">
+                    <select class="selec_horarios">
                         <option>Manhã</option>
                         <option>Tarde</option>
                         <option>Noite</option>
@@ -65,7 +74,6 @@
                         <th>Horário</th>   
                     </tr>
                 </thead>
-
                 <tbody>
                     <tr>
                         <td>Segunda</td>
@@ -83,9 +91,7 @@
                     </tr>
                  </tbody>
             </table>
-
         </main>
-
         <footer>
             <img src="../imagens/logo-branco.png" alt="Logo Barbearia">
             <p class="copyright">&copy; Copyrigth Tiago Batista - 2022</p>
