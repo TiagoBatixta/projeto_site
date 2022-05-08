@@ -1,0 +1,186 @@
+header{
+    background: url("../imagens/cabecalho.jpg");
+    padding: 20px 0;
+}
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0px;
+}
+
+.caixa{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 18px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+
+}
+
+nav a:hover{
+    color: #c78c19;
+    text-decoration: underline;
+    font-size: 23px;
+}
+
+.produtos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.produtos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    box-sizing: border-box;
+    vertical-align: top;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+}
+
+.produtos li:hover{
+    border-color: blue;
+}
+
+.produtos li:active{
+    border-color: red;
+}
+
+.produtos li:hover h2{
+    color: red;
+    font-size: 35px;
+}
+
+.produtos li:active h2{
+    color: blue;
+    font-size: 36px;
+}
+
+.produtos h2{
+    font-size: 30px;
+    font-weight: bold;     
+}
+
+.descricao{
+    font-weight: bold; 
+ 
+}
+
+.preco{
+    font-size: 22px;
+    font-weight: bold; 
+    margin-top: 10px;  
+}
+
+footer{
+    background: url("../imagens/bg.jpg");
+    text-align: center;
+    padding: 40px 0;
+}
+
+.copyright{
+    color: white;
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+
+form{
+    margin: 40px 0;
+}
+
+form label, form legend{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+    font-weight: bold;
+
+}
+
+.input-padrao{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 15px;
+    width: 50%;
+}
+
+.checkbox{
+    margin: 20px 0;
+}
+
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    background: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 15px;
+    border: none;
+    border-radius: 6px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    background: darkorange;
+    transform: scale(1.1);
+}
+
+table{
+   margin: 20px 40px; 
+}
+
+thead{
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td, th{
+    border: 1px solid black;
+    padding: 15px 8px;
+}
+
+
+/* Pagina inicial*/
+.banner{
+    width: 100%;
+}
+
+.titulo_principal{
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+.principal p {
+    margin-bottom: 1em;
+}
+
+.principal strong{
+    font-weight: bold;
+}
+
+.principal em{
+    font-style: italic;
+}
