@@ -1,3 +1,8 @@
+body{
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-family: 'Bebas Neue', cursive;
+}
+
 header{
     background: url("../imagens/cabecalho.jpg");
     padding: 20px 0;
@@ -163,6 +168,11 @@ td, th{
 
 
 /* Pagina inicial*/
+
+main{
+    margin-top: 30px;
+}
+
 .banner{
     width: 100%;
 }
@@ -194,4 +204,19 @@ td, th{
     width: 120px;
     float: left;
     margin: 0 20px 20px 0;
+}
+
+.mapa{
+    margin-top: 100px;
+    padding: 0 0 1em;
+}
+
+.mapa h3{
+    text-align: center  ;
+    margin: 20px;
+}
+
+.mapa p{
+    text-align: center;
+    margin: 20px;
 }
